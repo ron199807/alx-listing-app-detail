@@ -52,22 +52,17 @@ export interface LayoutProps {
 }
 
 export interface PropertyProps {
-  id: string;
+  id?: string;
   name: string;
-  description: string;
+  description?: string;
   price: number;
   rating: number;
   reviewCount: number;
   image: string;
   category: string[];
   address: Address;
+  reviwCount?: number;
 }
-
-export interface address {
-    street: string;
-    city: string;
-    country: string;
-  };
 
 export interface ReviewProps {
   id: number;
