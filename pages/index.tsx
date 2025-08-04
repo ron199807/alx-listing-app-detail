@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import { useState } from "react";
 import Head from "next/head";
 import { PROPERTYLISTINGSAMPLE } from "@/constants";
-import Card from "../../components/common/Card";
+import Card from "../components/common/Card";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 
